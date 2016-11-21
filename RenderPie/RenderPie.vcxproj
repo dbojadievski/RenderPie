@@ -121,8 +121,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="colour.h" />
+    <ClInclude Include="core_bitmap_file_header.h" />
+    <ClInclude Include="core_bitmap_info_header.h" />
+    <ClInclude Include="core_bitmap_utils.h" />
     <ClInclude Include="core_string.h" />
-    <ClInclude Include="core_texture.h" />
+    <ClInclude Include="core_texture_descriptor.h" />
     <ClInclude Include="core_types.h" />
     <ClInclude Include="core_vec2.h" />
     <ClInclude Include="linked_list.h" />
@@ -133,7 +136,7 @@
   <ItemGroup>
     <ClCompile Include="core_material.c" />
     <ClCompile Include="core_string.c" />
-    <ClCompile Include="core_texture.c" />
+    <ClCompile Include="core_texture_descriptor.c" />
     <ClCompile Include="core_vec2.c" />
     <ClCompile Include="core_vec3.c" />
     <ClCompile Include="core_vertex.c" />

@@ -7,6 +7,6 @@ typedef struct
 {
 	DWORD id;
 	core_string path;
-} core_texture;
+} core_texture_descriptor;
 
-void core_texture_create ( core_texture * p_texture );
+void core_texture_descriptor_create ( core_texture_descriptor * p_texture );

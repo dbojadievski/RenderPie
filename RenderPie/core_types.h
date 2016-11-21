@@ -46,6 +46,7 @@ typedef unsigned short UINT16;
 
 typedef INT32 LONG32;
 typedef INT64 LONG64;
+typedef LONG32 LONG;
 
 typedef CHAR *LPSTR;
 #if defined(_WIN64)
